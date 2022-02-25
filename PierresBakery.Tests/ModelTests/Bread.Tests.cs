@@ -21,5 +21,13 @@ namespace Pierres.TestTools
       int loafPrice = Bread.GetLoafPrice(1);
       Assert.AreEqual(loafPrice, expectedNumber); 
     }
+
+    [TestMethod]
+    public void GetLoafPrice_Returns10for3_Int()
+    {
+      int expectedNumber = 10;
+      int loafPrice = Bread.GetLoafPrice(3);
+      Assert.AreEqual(loafPrice, expectedNumber); 
+    }
   }
 }
