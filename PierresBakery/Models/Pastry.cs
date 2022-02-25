@@ -8,5 +8,13 @@ namespace PierresBakery.Models
     {
       NumberOfPastries = numberOfPastries;
     }
+
+    public static int GetPastryPrice(int numberOfPastries)
+    {
+      int fiveDollars = (numberOfPastries / 3) * 5;   
+      int twoDollars = (numberOfPastries % 3) * 2;      
+      int price = fiveDollars + twoDollars;
+      return price;
+    }
   }
 }
