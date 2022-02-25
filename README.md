@@ -1,8 +1,7 @@
-# _Find and Replace_
+# _Pierre's Bakery_
 
-#### By Mikah Mathews, Brenna Lavin
-
-#### _Replace all instances of a word_
+#### By Mikah Mathews
+#### _Terminal Based Application to Buy Pastries_
 
 ## Technologies Used
 * C#
@@ -11,7 +10,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Welcome to Pierre's Bakery! Come on in and put in an order. Using the terminal, buy bread and pastries and get the price._
 
 ## Setup/Installation Requirements
 
@@ -21,7 +20,6 @@ _{This is a detailed description of your application. Give as much detail as nee
 * Once dependencies are installed, type ```dotnet test``` in the terminal to run the project's tests.
 * To run the application navigate to the {Template} folder using the terminal.
 * Once in the {Template} folder, type ```dotnet run``` to run the program.
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
