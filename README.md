@@ -59,4 +59,13 @@ loafCount = function(numberOfLoaves){
     let price = loavesToPrice*5;
     return price;
 }
+
+pastryPrice = function(numberOfPastries){
+    let fivedollar = Math.floor(numberOfPastries/3);
+    console.log(fivedollar + "five");
+    let twodollar = numberOfPastries%3;
+    console.log(twodollar + "one")
+    let price = (fivedollar*5) + (twodollar*2);
+    return price
+}
 ```
