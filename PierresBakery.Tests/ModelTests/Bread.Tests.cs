@@ -13,5 +13,13 @@ namespace Pierres.TestTools
       Bread fiveLoaves = new Bread(5);
       Assert.AreEqual(typeof(Bread), fiveLoaves.GetType());
     }
+
+    [TestMethod]
+    public void GetLoafPrice_Returns5for1_Int()
+    {
+      int expectedNumber = 5;
+      int loafPrice = Bread.GetLoafPrice(1);
+      Assert.AreEqual(loafPrice, expectedNumber); 
+    }
   }
 }

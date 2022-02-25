@@ -58,4 +58,5 @@ loafCount = function(numberOfLoaves){
     console.log(loavesToPrice);
     let price = loavesToPrice*5;
     return price;
-}```
+}
+```
