@@ -11,7 +11,7 @@ namespace PierresBakery.Models
 
     public static int GetLoafPrice(int numberOfLoaves)
     {
-      int free = numberOfLoaves / 3;      
+      int free = numberOfLoaves / 3;   
       int loavesToPrice = numberOfLoaves - free;      
       int price = loavesToPrice*5;
       return price;
