@@ -48,3 +48,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## JS functions
+```loafCount = function(numberOfLoaves){
+  let free = Math.floor(numberOfLoaves / 3);
+    console.log(free + "free");
+    let loavesToPrice = numberOfLoaves - free;
+    console.log(loavesToPrice);
+    let price = loavesToPrice*5;
+    return price;
+}```
