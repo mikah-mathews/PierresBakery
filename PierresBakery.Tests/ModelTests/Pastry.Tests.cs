@@ -20,5 +20,13 @@ namespace Pierres.TestTools
       int pastryPrice = Pastry.GetPastryPrice(1);
       Assert.AreEqual(pastryPrice, expectedNumber); 
     }
+
+    [TestMethod]
+    public void GetPastryPrice_Returns3for5_Int()
+    {
+      int expectedNumber = 5;
+      int pastryPrice = Pastry.GetPastryPrice(3);
+      Assert.AreEqual(pastryPrice, expectedNumber); 
+    }
   }
 }
