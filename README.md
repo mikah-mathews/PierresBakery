@@ -15,15 +15,15 @@ _Welcome to Pierre's Bakery! Come on in and put in an order. Using the terminal,
 ## Setup/Installation Requirements
 
 * Clone this repository to your local machine
-* Navigate to the {Template.Tests} folder using your terminal.
+* Navigate to the PierresBakery.Tests folder using your terminal.
 * To install the project's dependencies, in the terminal type ```dotnet restore```
 * Once dependencies are installed, type ```dotnet test``` in the terminal to run the project's tests.
-* To run the application navigate to the {Template} folder using the terminal.
-* Once in the {Template} folder, type ```dotnet run``` to run the program.
+* To run the application navigate to the PierresBakery folder using the terminal.
+* Once in the PierresBakery folder, type ```dotnet run``` in the terminal to run the program.
 
 ## Known Bugs
 
-* No known bugs at this time.
+* Will return negative price if more than 64 int number is entered
 
 ## License
 
